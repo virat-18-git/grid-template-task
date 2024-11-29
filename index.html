@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .d {
+        display: grid;
+        border: 5px solid blue;
+        background-color: brown;
+        border-radius: 10px;
+        padding: 10px;
+
+        grid-template-rows: 60px 100px;
+
+        gap: 5px;
+        grid-template-areas:
+          "area1 area1 area2 area2 area2 area3 area3 area4 area4 area5 area5 area5 area6"
+          "area7  area7 area8 area8 area8 area8 area8 area4 area4 area5 area5 area5 area6";
+      }
+      .c1 {
+        background-color: bisque;
+        border-radius: 10px;
+
+        grid-area: area1;
+      }
+      .c2 {
+        background-color: red;
+        border-radius: 10px;
+        grid-area: area2;
+      }
+      .c3 {
+        background-color: green;
+        border-radius: 10px;
+        grid-area: area3;
+      }
+      .c4 {
+        background-color: yellow;
+        border-radius: 10px;
+        grid-area: area4;
+      }
+      .c5 {
+        background-color: violet;
+        border-radius: 10px;
+        grid-area: area5;
+      }
+      .c6 {
+        background-color: darkcyan;
+        border-radius: 10px;
+        /* width: 20px; */
+        grid-area: area6;
+      }
+      .c7 {
+        background-color: rgb(210, 14, 132);
+        border-radius: 10px;
+        grid-area: area7;
+      }
+      .c8 {
+        background-color: darkturquoise;
+        border-radius: 10px;
+        grid-area: area8;
+      }
+      .d1 {
+        display: grid;
+        border: 5px solid brown;
+        background-color: blue;
+        border-radius: 10px;
+        padding: 10px;
+        grid-template-rows: 100px 100px 100px;
+        gap: 5px;
+         grid-template-areas:
+          "area9 area10 area10 area11 "
+          "area9 area12 area13 area14"
+          "area9 area15 area16 area14"; 
+      }
+      .c9 {
+        background-color:green;
+        border-radius: 10px;
+        grid-area: area9;
+      }
+      .c10 {
+        background-color: green;
+        border-radius: 10px;
+        grid-area: area10;
+      }
+      .c11 {
+        background-color: red;
+        border-radius: 10px;
+        grid-area: area11;
+      }
+      .c12 {
+        background-color:yellow;
+        border-radius: 10px;
+        grid-area: area12;
+      }
+      .c13 {
+        background-color: red;
+        border-radius: 10px;
+       grid-area: area13;
+      }
+      .c14 {
+        background-color: green;
+        border-radius: 10px;
+        grid-area: area14;
+      }
+      .c15 {
+        background-color: red;
+        border-radius: 10px;
+        grid-area: area15;
+      }
+      .c16 {
+        background-color: yellow;
+        border-radius: 10px;
+        grid-area: area16;
+      }
+
+     
+    </style>
+  </head>
+  <body>
+    <div class="d">
+      <div class="c1"></div>
+      <div class="c2"></div>
+      <div class="c3"></div>
+      <div class="c4"></div>
+      <div class="c5"></div>
+      <div class="c6"></div>
+      <div class="c7"></div>
+      <div class="c8"></div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <div class="d1">
+      <div class="c9"></div>
+      <div class="c10"></div>
+      <div class="c11"></div>
+      <div class="c12"></div>
+      <div class="c13"></div>
+      <div class="c14"></div>
+      <div class="c15"></div>
+      <div class="c16"></div>
+    </div>
+  </body>
+</html>
